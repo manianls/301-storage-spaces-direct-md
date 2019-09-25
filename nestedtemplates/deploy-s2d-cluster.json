@@ -138,7 +138,7 @@
     },
     "variables": {
         "apiVersionStorage": "2016-01-01",
-        "witnessStorageName": "[concat(parameters('namePrefix'),'cw')]",
+        "witnessStorageName": "[concat('isvsap'),'cw')]",
         "witnessStorageType": "Standard_LRS",
         "vmNamePrefix": "[concat(parameters('namePrefix'),'fsec')]",
         "vmAvailabilitySetName": "[concat(variables('vmNamePrefix'),'as')]",
